@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+}
+
+/* Block naming */
+.header {
+    
+    text-align: center;
+    background: blanchedalmond;
+}
+/* Element naming */
+.h3 {
+    font-size: 20pt;
+}
+
+/* Bloack naming */
+.h2 {
+    background-color: aquamarine;
+    color: black;
+    margin : 0;
+    padding : 0 px;
+}
+/* Element naming */
+.fakeimg {
+   min-width: 100%;
+   min-height: 80%;
+   margin-left:auto;
+}
+/* Element naming */
+.p
+{
+    font-size: 20pt;
+    margin: 0;    
+}
+/* Element naming */
+.p1 {
+    text-align: center;
+    font-size: 20pt;
+    margin: 0;
+    color: blueviolet;
+    text-decoration : underline;
+    
+}
+
+/* Block naming */
+.flex-container 
+{
+ display: flex;
+ 
+}
+/* Element naming */
+.flex-container .slide img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Media queries for flex container and images */
+@media screen and (max-width:500px)
+{
+    .flex-container 
+    {
+     display: flex;
+     flex-wrap : wrap;
+    } 
+}
+
+@media screen and (max-width:650px)
+{
+    .fakeimg {
+            width:100%;
+    }
+}
+
+/* Footer */
+.footer {
+  
+    text-align: center;
+    background: #ddd;
+}
